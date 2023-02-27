@@ -1,83 +1,111 @@
 /* font-family: 'Alfa Slab One', cursive; */
-footer{
-    background-color:#aaa;
-}
-h1, h2 {
+/* footer {
+    background-color: #aaa;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+} */
+
+h1,
+h2 {
     font-family: 'Alfa Slab One', cursive;
 }
-.imagen{
+
+.imagen {
     width: 60px;
     aspect-ratio: 2.1;
     font-family: 'Alfa Slab One', cursive;
 
 }
-.bis{
+
+.bis {
     width: 580px;
     height: 120px;
 }
-.lista-de-comidas{
+
+.lista-de-comidas {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.lista-de-comidas li{
+
+.lista-de-comidas li {
     margin: 4px 0;
 }
-.lista-de-comidas li a{
+
+.lista-de-comidas li a {
     background-color: #fff;
-    font-family: 'alfa slab one',cursive;
+    font-family: 'alfa slab one', cursive;
     text-decoration: none;
     font-size: 1.2rem;
     color: #a0a0a0;
-    transition: all .2s  ease-in-out;
+    transition: all .2s ease-in-out;
     display: block;
 }
-.lista-de-comidas li a:hover{
+
+.lista-de-comidas li a:hover {
     color: #212529;
     background-color: #dadada;
 }
-.lista-de-comidas li a img{
+
+.lista-de-comidas li a img {
     width: 160px;
     height: 70px;
-    transition: all .2s  ease-in-out;
+    transition: all .2s ease-in-out;
     margin-right: 1rem;
 }
-.lista-de-comidas li a:hover img{
+
+.lista-de-comidas li a:hover img {
     filter: none;
     margin-right: 1.4rem;
     opacity: 1;
 }
-.modal-body img{
+
+.modal-body img {
     width: 180px;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
+
 }
 
-.staff{
+.staff {
     background-color: #efefef;
 }
-.mapa iframe{
+
+.mapa iframe {
     width: 100%;
     aspect-ratio: 1.2;
 }
+
 .contactanos {
     position: relative;
-    top:  -20px; 
+    top: -20px;
     left: 50px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.scroll_section{
-scroll-margin-top:60px ;
+
+.scroll_section {
+    scroll-margin-top: 60px;
 }
-.cabecera{
+
+.cabecera {
     text-align: center;
     width: 100%;
     margin-left: 0;
+
+}
+
+.margen {
     
+    margin-top: 360px;
+   
 }
