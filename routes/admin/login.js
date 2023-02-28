@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router()
-var usuariosModel = require('./../../models/usuariosModels')
+var usuariosModel = require('../../models/usuariosModel')
 
 router.get('/', function(req, res, next) {
     res.render('admin/login',{
@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
     
     var data = await usuariosModel.getUserAndPassword(usuario,password);
 
-    if (data != undefined){
+    if (data != undefined){ 
         res.redirect('/admin/novedades');
 
     } else {
